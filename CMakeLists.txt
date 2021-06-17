@@ -13,6 +13,7 @@ set(OPENCV_BUILD_LIST
 	"imgproc"
 	"imgcodecs"
 	"highgui"
+	"videoio"
 )
 string(REGEX REPLACE ";" "," OPENCV_BUILD_LIST_STRING "${OPENCV_BUILD_LIST}")
 string(REGEX REPLACE "([^;]+)" "opencv_\\1" OPENCV_BUILD_LIST_TARGET "${OPENCV_BUILD_LIST}")

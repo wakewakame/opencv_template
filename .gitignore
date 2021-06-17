@@ -21,11 +21,9 @@ _deps
 [._]s[a-rt-v][a-z]
 [._]ss[a-gi-z]
 [._]sw[a-p]
-
 # Session
 Session.vim
 Sessionx.vim
-
 # Temporary
 .netrwhist
 *~
@@ -35,4 +33,7 @@ tags
 [._]*.un~
 
 # For Clangd =============================================
-/.clangd
+.clangd/
+
+# For Visual Studio ======================================
+.vs/
